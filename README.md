@@ -47,24 +47,26 @@ git clone https://github.com/kokonect-link/mfc.js.git
 
 ### 2. Install packages
 ```
-cd mfc.js
-npm i
+cd mfm.js
+
+# This repository uses pnpm as its package manager.
+pnpm i
 ```
 
 ### 3. Build
 ```
-npm run build
+pnpm run build
 ```
 
 ### Use the interactive CLI parser
 full parser:
 ```
-npm run parse
+pnpm run parse
 ```
 
 simple parser:
 ```
-npm run parse-simple
+pnpm run parse-simple
 ```
 
 ## License
