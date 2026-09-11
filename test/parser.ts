@@ -207,7 +207,7 @@ hoge`;
 			});
 		});
 		test('ブロックの前後にあるテキストが正しく解釈される', () => {
-			const input = 'abc\nhoge piyo bebeyo 検索\n123';
+			const input = 'abc\nhoge piyo bebeyo [検索]\n123';
 			const output = [
 				TEXT('abc'),
 				SEARCH('hoge piyo bebeyo', 'hoge piyo bebeyo [検索]'),
