@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "tsdown",
+    "prepare": "npm run build",
     "tsc": "tsc --noEmit",
     "tsd": "tsd",
     "parse": "node ./built/cli/parse.cjs",
@@ -28,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kokonect-link/mfc.js.git"
+    "url": "git+https://github.com/cheripia-dev/mfm.js.git"
   },
   "author": "Marihachi",
   "license": "MIT",
