@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "prepare": "npm run build",
+    "prepare": "pnpm run build",
     "tsc": "tsc --noEmit",
     "tsd": "tsd",
     "parse": "node ./built/cli/parse.cjs",
